@@ -1,5 +1,5 @@
 import { storeToRefs } from "pinia";
-import { useUserStore } from "../store/useUserStore";
+import { useUserStore } from "../stores/useUserStore";
 
 // Este composable nos ayuda a no tener fuerte acoplamiento con el store en los componentes
 export const useUserAuth = () => {
