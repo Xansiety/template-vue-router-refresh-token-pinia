@@ -1,5 +1,5 @@
 import authRouter from "../auth/router";
-import privateRouter from "../private-module/router"; 
+import privateRouter from "../private-module/router";
 
 export const routes = [
   {

@@ -1,20 +1,18 @@
-<script setup>
-import { useUserAuth } from '../../composables/useUserAuth';
+<script setup lang="ts">
+import { useUserAuth } from "../../composables/useUserAuth";
 const { userData, logoutUser } = useUserAuth();
-</script> 
+</script>
 
 <template>
-    <h1> Perfil Pagina Privada</h1>
+  <h1>Perfil Pagina Privada</h1>
 
-    <code>
-        {{ userData }}
-    </code>
+  <code>
+    {{ userData }}
+  </code>
 
-    <br>
-    
-    <button @click="logoutUser" class="btn btn-danger">Logout</button>
-</template> 
+  <br />
 
-<style lang='scss' scoped>
+  <button @click="logoutUser" class="btn btn-danger">Logout</button>
+</template>
 
-</style>
+<style lang="scss" scoped></style>

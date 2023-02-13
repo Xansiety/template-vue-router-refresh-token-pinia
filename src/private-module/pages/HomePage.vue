@@ -1,10 +1,7 @@
-<script setup>
-</script> 
+<script setup lang="ts"></script>
 
 <template>
-    <h1> Home Page  - Esta es una pagina privada </h1>
-</template> 
+  <h1>Home Page - Esta es una pagina privada</h1>
+</template>
 
-<style lang='scss' scoped>
-
-</style>
+<style lang="scss" scoped></style>

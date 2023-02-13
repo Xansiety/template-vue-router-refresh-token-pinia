@@ -1,19 +1,16 @@
-<script setup>
-import NavBar from '../components/NavBar.vue'
-
-</script> 
+<script setup lang="ts">
+import NavBar from "../components/NavBar.vue";
+</script>
 
 <template>
-    <NavBar />
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <RouterView />
-            </div>
-        </div>
+  <NavBar />
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <RouterView />
+      </div>
     </div>
-</template> 
+  </div>
+</template>
 
-<style lang='scss' scoped>
-
-</style>
+<style lang="scss" scoped></style>
